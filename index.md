@@ -17,15 +17,18 @@ To remedy these difficulties, as part of the OpenGeoScales project, we are propo
 
 ## CarbonGeoScales project
 
-Greenhouse gas emissions from human activities are considered as the most significant driver of observed climate change since the mid-20th century. In order to better mitigate climate change impacts, policy makers, scientists, carbon and environment consultancy specialists, data journalists and citizens need easy free access to relevant and accurate data on GHGs emissions at various spatial scales.
+Greenhouse gas (GHGs) emissions from human activities are considered as the most significant driver of observed climate change since the mid-20th century. In order to better mitigate climate change impacts, policy makers, scientists, carbon and environment consultancy specialists, data journalists and citizens need easy free access to relevant and accurate data on GHGs emissions at various spatial scales.
 In accordance with the Paris Agreement, countries are required to submit transparent, comparable and complete reporting of GHGs inventories based on the methodologies developed by the IPCC. In addition to these Top-Down approaches, Bottom-Up methods are being used for completing emissions estimates based on satellite imagery and carbon monitoring stations at different spatial scales. At subnational scales, important efforts and specific protocols are deployed for measuring city emissions since they represent a large percent of energy-related GHGs emissions.
 The collected GHGs emissions datasets are shared through multiple open data platforms built by different organisms. However, it remains complex and time consuming to use it and combine it due to different formats, standards, scales, protocols, units, data definitions… 
+
+### Objective
+
 The main goal of CarbonGeoScales consists of **providing a centralized access point to accurate, harmonized, and aggregated GHGs emissions data at multiple geographical scales**. As an open source and collaborative project, different data processing treatments are accessible in order to inform users on transformation and cleaning and transformation processes implemented on raw collected data. The resulting compiled database is accessible by download and through specific API for querying and integrating aggregated data into potential applications. Resulting harmonized GHGs emissions data are completed with consistent documentation, articles and dashboard for exploring its content.
 By facilitating access to GHGs emissions open data, CarbonGeoScales is participating to help policy makers to build more effective emissions reduction strategies at different territorial scales and to track their progress more accurately. 
 
-## Outputs
+### Outputs
 
-### Cartography and exploration of existing GHGs emissions data
+### Used datasets
 
 Data provider | Description | Geoscale | Data sources | Access |
 ---|---------|---|---| ---| 
@@ -43,10 +46,28 @@ Carbon Disclosure Project (CDP) | The CDP is an international non-profit organis
 
 ## Users
 
+CarbonGeoScales aims at providing various GHGs emissions data users profiles with consistent and harmonized open data:
+
+- **Data journalists** specialized in climate change issues who need ...
+- **Policy makers** for better mitigating climate actions in various scales
+- **Scientists** working in downscaling GHGs emissions estimates 
+- **Carbon consultancy specialists** for better accounting carbon footprint
+- **NGOs**
+
+
 ## Contributers
+
+CarbonGeoScales is a collaborative project open to contribution from every person interested in GHGs emissions data modeling and processing depending on their expertise:
+
+- **Data experts::
+- **GHGs emissions use case experts**
+- **Scientists**
+
+## Roadmap
+
 
 ## Partnerships
 
-## Roadmap
+
 
 ## Project management
