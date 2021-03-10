@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+> This document presents the CarbongeoScales project: A framework for standardizing available GHGs emissions data at multiple geographical sclaes. A complementary technical report presenting a comprehensive cartography of GHGs emissions open data with our first explorations and modeling is available [in this link](https://opengeoscales.github.io/CarbonData/).
+>
+> Key words: `Open Data`, `Geospatial scales`, `Climate Change`, `GHG emissions`, `Standardization`, `Open Source`
+>
+> Author and project manager: [Saif Shabou](https://saif-shabou.netlify.app/)
+> 
+> Date: 10/03/2021
+> 
 
-You can use the [editor on GitHub](https://github.com/OpenGeoScales/CarbonGeoScales/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Context
 
-### Markdown
+Environmental issues are becoming increasingly important in public policies as well as in our daily life. Knowledge of the state of our planet and the assessment of climate impa t impact of human activities require **free and easy access to reliable, accurate, aggregated and documented data**.
+While several open data platforms and portals are engaged in publishing relevant environnmental data (air quality, greenhouse gas emissions, natural hazards, energy resources...), the use of this data remain oftne complex and tedious, especially for non-data specialist. Identification and mapping of the different sources as well as cleaning, recoding, normalization, cross-referencing, consolidation and aggregation at different geographic scales is often necessary before being able to use the available data.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+To remedy these difficulties, as part of the OpenGeoScales project, we are proposing to build **a centralized access point to standardized and aggregated environmental data at different geographic scales**. In addition to providing reliable and standardized environmental data, OpenGeoScales offers **free access to processing** implemented on raw data collected from various sources and aims to federate **an open source community** participating in the production of data and tools needed to explore them.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OpenGeoScales/CarbonGeoScales/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## CarbonGeoScales project
