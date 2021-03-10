@@ -91,19 +91,15 @@ Different improvements and new features have been identified for next releases o
 
 ## Project management
 
-**Code source**:
-The actual code source of CarbonGeoScales project is hosted in [this Github repository](https://github.com/OpenGeoScales/CarbonData). [Github Project Board](https://github.com/OpenGeoScales/CarbonData/projects/2) is used for managing the collaboration in the developement of different fetaures and issues.
+- **Code source**: The actual code source of CarbonGeoScales project is hosted in [this Github repository](https://github.com/OpenGeoScales/CarbonData). [Github Project Board](https://github.com/OpenGeoScales/CarbonData/projects/2) is used for managing the collaboration in the developement of different fetaures and issues.
 
-**Documentation**
-The actual documentation is hosted in [Github wiki pages](https://github.com/OpenGeoScales/CarbonData/wiki). More appropriate documentation will be available soon in a specific documentation site.
+- **Documentation**: The actual documentation is hosted in [Github wiki pages](https://github.com/OpenGeoScales/CarbonData/wiki). More appropriate documentation will be available soon in a specific documentation site.
 
-**Contribution modalities**
-Contribution modalities are incremently specified in the [readme page](https://github.com/OpenGeoScales/CarbonData). A slack canal will be shared soon for facilitating interaction between contributors.
+- **Contribution modalities**: Contribution modalities are incremently specified in the [readme page](https://github.com/OpenGeoScales/CarbonData). A slack canal will be shared soon for facilitating interaction between contributors.
 
 ## Partnerships
 
-CarbonGeoScales has been selected by [Data For Good](https://dataforgood.fr/) in order to deliver first prototype based on Frencch GHGs emissions data. 
-CarbonGeoScales project need to set up various partnerhips with organisms specialized in open data, climate change issues and city-scale carbon monitoring.
+CarbonGeoScales has been selected by [Data For Good](https://dataforgood.fr/) in order to deliver first prototype based on Frencch GHGs emissions data. More partnerhips need to be set up with organisms specialized in open data, climate change issues and city-scale carbon monitoring in order to improve the consistency of delivered standardized data:
 
 - **Open Data**: [Our World in Data](https://ourworldindata.org/), [World resources Institute](https://www.wri.org/), [The Open Source geospatial Foundation (OSCGeo](https://www.osgeo.org/), [Open Data Institute](https://theodi.org/), [Open Knowldge Foundation](https://blog.okfn.org/), [Open data for development](https://www.od4d.net/), [Global Partnership for Sustainable Development Data](https://www.data4sdgs.org/about-gpsdd)...
 - **Carbon Data**: [Open Carbon Watch](https://opencarbonwatch.org/fr), [Integrated Carbon Observation System](https://www.icos-cp.eu/about/icos-in-nutshell/mission), [OS-climat](https://www.os-climate.org/), [Carbon Disclosure Project (CDP)](https://www.cdp.net/en)...
