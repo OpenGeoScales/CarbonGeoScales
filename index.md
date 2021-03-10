@@ -18,12 +18,21 @@ To remedy these difficulties, as part of the OpenGeoScales project, we are propo
 ## CarbonGeoScales project
 
 Greenhouse gas (GHGs) emissions from human activities are considered as the most significant driver of observed climate change since the mid-20th century. In order to better mitigate climate change impacts, policy makers, scientists, carbon and environment consultancy specialists, data journalists and citizens need easy free access to relevant and accurate data on GHGs emissions at various spatial scales.
+
 In accordance with the Paris Agreement, countries are required to submit transparent, comparable and complete reporting of GHGs inventories based on the methodologies developed by the IPCC. In addition to these Top-Down approaches, Bottom-Up methods are being used for completing emissions estimates based on satellite imagery and carbon monitoring stations at different spatial scales. At subnational scales, important efforts and specific protocols are deployed for measuring city emissions since they represent a large percent of energy-related GHGs emissions.
+
+### Pain points
+
 The collected GHGs emissions datasets are shared through multiple open data platforms built by different organisms. However, it remains complex and time consuming to use it and combine it due to different formats, standards, scales, protocols, units, data definitions… 
 
-### Objective
+### Solution
 
-The main goal of CarbonGeoScales consists of **providing a centralized access point to accurate, harmonized, and aggregated GHGs emissions data at multiple geographical scales**. As an open source and collaborative project, different data processing treatments are accessible in order to inform users on transformation and cleaning and transformation processes implemented on raw collected data. The resulting compiled database is accessible by download and through specific API for querying and integrating aggregated data into potential applications. Resulting harmonized GHGs emissions data are completed with consistent documentation, articles and dashboard for exploring its content.
+---
+The main goal of CarbonGeoScales consists of providing a centralized access point to accurate, harmonized, and aggregated GHGs emissions data at multiple geographical scales. 
+---
+
+As an open source and collaborative project, different data processing treatments are accessible in order to inform users on transformation and cleaning and transformation processes implemented on raw collected data. The resulting compiled database is accessible by download and through specific API for querying and integrating aggregated data into potential applications. Resulting harmonized GHGs emissions data are completed with consistent documentation, articles and dashboard for exploring its content.
+
 By facilitating access to GHGs emissions open data, CarbonGeoScales is participating to help policy makers to build more effective emissions reduction strategies at different territorial scales and to track their progress more accurately. 
 
 ### Outputs
@@ -39,7 +48,7 @@ The Joint Research Center of Euorpean Commission | The Joint Research center pro
 The Organization for Economic Co-Operation and Development (OECD) | The OECD publishes datasets presenting trends in man-made emissions of major greenhouse gases and emissions by gas. | `OECD scale` <br /> `Country scale`|`UNFCCC`|   [Get data](https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG) |
 European Environmental Agency (EEA) | The EEA compiles and provides data on greenhouse gas emissions and removals, sent by countries to UNFCCC and the EU Greenhouse Gas Monitoring Mechanism (EU Member States).| `Europe scale` <br /> `Country scale`| `UNFCCC`| [Get data](https://www.eea.europa.eu/data-and-maps/data/national-emissions-reported-to-the-unfccc-and-to-the-eu-greenhouse-gas-monitoring-mechanism-16) |
 Eurostat | Eurostat (European Statistical Office) is a Directorate-General of the European Commission. It provides statistical information to the institutions of the European Union (EU) such as a comprehensive set of climate change-related data including GHG emissions statistics. Eurostat maintains a [data portal](https://ec.europa.eu/eurostat/databrowser/view/sdg_13_10/default/table?lang=en) for exploring emissions data. | `Europe scale` <br /> `Country scale`| `EEA` `UNFCCC`| [Get data](https://ec.europa.eu/eurostat/web/climate-change/data/database) |
-Our World In Data | Our WOrld In Data compile, maintain and shares CO2 and GHG emissions data. It is updated regularly and includes data on CO2 emissions (annual, per capita, cumulative and consumption-based), other greenhouse gases, energy mix, and other relevant metrics. | `World scale` <br /> `Country scale`| `GCP` <br /> `CAIT` |[Get data](https://github.com/owid/co2-data) |
+Our World In Data | Our World In Data compile, maintain and shares CO2 and GHG emissions data. It is updated regularly and includes data on CO2 emissions (annual, per capita, cumulative and consumption-based), other greenhouse gases, energy mix, and other relevant metrics. | `World scale` <br /> `Country scale`| `GCP` <br /> `CAIT` |[Get data](https://github.com/owid/co2-data) |
 Global Carbon Project (GCP) | GCP is a global research project that seeks to quantify global greenhouse gas emissions and their causes. It provides data on carbon fluxes resulting from human activities and natural processes and a platform to explore and visualize the most up-to-date data ([Gloabl carbon Atlas](http://www.globalcarbonatlas.org/en/content/welcome-carbon-atlas)) | `World scale`<br />`Country scale`<br /> `City scale`| `GCP` |[Get data](https://www.globalcarbonproject.org/carbonbudget/20/data.htm) |
 Carbon Disclosure Project (CDP) | The CDP is an international non-profit organisation that helps companies and cities disclose their environmental impact and GHG emissions. CDP provides [an open data protal](https://data.cdp.net/) for exploring companies and city-wide collected data. | `City scale`| `CDP` | [Get data](https://data.cdp.net/browse?category=Emissions)|
 
@@ -93,7 +102,13 @@ Contribution modalities are incremently specified in the [readme page](https://g
 
 ## Partnerships
 
-CarbonGeoScales has been selected by [Data For Good](https://dataforgood.fr/) in order to pro
+CarbonGeoScales has been selected by [Data For Good](https://dataforgood.fr/) in order to deliver first prototype based on Frencch GHGs emissions data. 
+CarbonGeoScales project need to set up various partnerhips with organisms specialized in open data, climate change issues and city-scale carbon monitoring.
+
+- **Open Data**: [Our World in Data](https://ourworldindata.org/), [World resources Institute](https://www.wri.org/), [The Open Source geospatial Foundation (OSCGeo](https://www.osgeo.org/), [Open Data Institute](https://theodi.org/), [Open Knowldge Foundation](https://blog.okfn.org/), [Open data for development](https://www.od4d.net/), [Global Partnership for Sustainable Development Data](https://www.data4sdgs.org/about-gpsdd)...
+- **Carbon Data**: [Open Carbon Watch](https://opencarbonwatch.org/fr), [Integrated Carbon Observation System](https://www.icos-cp.eu/about/icos-in-nutshell/mission), [OS-climat](https://www.os-climate.org/), [Carbon Disclosure Project (CDP)](https://www.cdp.net/en)...
+- **City scale data**: [C40 cities](https://www.c40.org/about), [Global Govenant of Mayors for Climate & Energy](https://www.globalcovenantofmayors.org/), [Local Governments for Sustainability (ICLEI)](https://iclei.org/), [Carbon Neutral Cities Alliance](https://carbonneutralcities.org/)...
+
 
 
 
