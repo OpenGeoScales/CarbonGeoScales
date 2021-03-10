@@ -32,7 +32,6 @@ By facilitating access to GHGs emissions open data, CarbonGeoScales is participa
 
 Data provider | Description | Geoscale | Data sources | Access |
 ---|---------|---|---| ---| 
-The World Bank | The World Bank Group publishes various indicators on world development through its [open data platform](https://data.worldbank.org/). Provided aggregated [GHG emissions data](https://data.worldbank.org/indicator/EN.ATM.GHGT.KT.CE) is based on the Emission Database for Global Atmospheric Research (EDGAR)   | `World scale` <br /> `Country scale` | `EDGAR`| [Get data](https://data.worldbank.org/indicator/EN.ATM.GHGT.KT.CE) | 
 The World Resources Institute (WRI) | The World Resources Institute compiles various sources of GHG emissions and provide access to this data through a specific tool: [CLIMAT WATCH](https://www.climatewatchdata.org/data-explorer/historical-emissions?historical-emissions-data-sources=cait&historical-emissions-gases=&historical-emissions-regions=&historical-emissions-sectors=&page=1). Provided [GHG emissions data](https://www.climatewatchdata.org/data-explorer/historical-emissions?historical-emissions-data-sources=cait&historical-emissions-gases=&historical-emissions-regions=&historical-emissions-sectors=&page=1) is based on various data sources: CAIT database, UNFCCC, PIK.  | `World scale` <br /> `Country scale`|  `CAIT` `UNFCCC` `PIK`  | [Get data](https://www.climatewatchdata.org/data-explorer/historical-emissions?historical-emissions-data-sources=cait&historical-emissions-gases=&historical-emissions-regions=&historical-emissions-sectors=&page=1) |
 The United Nations Framework Convention on Climate Change (UNFCCC) | The UNFCCC compiles and shares national annual greenhouse gases inventories submitted in accordance with with the reporting requirements adopted under the Climate Change Convention | `World scale` <br />  `Country scale`| `UNFCCC` | [Get data](https://di.unfccc.int/time_series) |
 Potsdam Institute for Climate Impact Research (PIK) | The Postdam Institute provides the **PRIMAP-hist dataset**, which combines several published datasets to create a comprehensive set of greenhouse gas emission pathways for every country and Kyoto gas covering the years 1850 to 2017, and all UNFCCC (United Nations Framework Convention on Climate Change) member states, as well as most non-UNFCCC territories.| `World scale` <br /> `Country scale`| `UNFCCC` `EDGAR`  |[Get data](https://dataservices.gfz-potsdam.de/pik/showshort.php?id=escidoc:4736895) |
@@ -59,15 +58,43 @@ CarbonGeoScales aims at providing various GHGs emissions data users profiles wit
 
 CarbonGeoScales is a collaborative project open to contribution from every person interested in GHGs emissions data modeling and processing depending on their expertise:
 
-- **Data experts::
+- **Data experts:
 - **GHGs emissions use case experts**
 - **Scientists**
 
 ## Roadmap
 
+### Beta version 
+
+The figure below presents prelimenrary roadmap for delivering the first release if CarbonGeoScales as a part of Data For Good acceleration 3 months program starting from April 1st 2021. The dirst prototype adresses only the standardization of GHGs emission data at multiple scales in France.
+
+![Roadmap](https://github.com/OpenGeoScales/Management/blob/main/images/Roadmap.png?raw=true)
+
+### Future releases
+
+Different improvements and new features have been identified for next releases of CarbonGeoScales:
+
+- **GHGs emissions data**: Including Top-down estimates based on satellite images and  ground based carbon monitoring stations in order to leverage uncertainties due to reporting bias.
+- **Data visualization**: Developing geo-visualization dashboards for exploring CarbonGeoScales database
+- **Geographical coverage**: Extending the spatial coverage of compiled data and implementing Beta version prototype to other territories and geographical scales.
+- **Communication**: Developing a dedicated web site for hosting and sharing documentation and articles based on CarbonGeoScales database and API
+- **Performance**: Improving database performance and data models by providing appropriate data storage infrastructure.
+
+## Project management
+
+**Code source**:
+The actual code source of CarbonGeoScales project is hosted in [this Github repository](https://github.com/OpenGeoScales/CarbonData). [Github Project Board](https://github.com/OpenGeoScales/CarbonData/projects/2) is used for managing the collaboration in the developement of different fetaures and issues.
+
+**Documentation**
+The actual documentation is hosted in [Github wiki pages](https://github.com/OpenGeoScales/CarbonData/wiki). More appropriate documentation will be available soon in a specific documentation site.
+
+**Contribution modalities**
+Contribution modalities are incremently specified in the [readme page](https://github.com/OpenGeoScales/CarbonData). A slack canal will be shared soon for facilitating interaction between contributors.
 
 ## Partnerships
 
+CarbonGeoScales has been selected by [Data For Good](https://dataforgood.fr/) in order to pro
 
 
-## Project management
+
+
