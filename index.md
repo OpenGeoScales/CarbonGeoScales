@@ -33,13 +33,17 @@ By facilitating access to GHGs emissions open data, CarbonGeoScales is participa
 
 ### Components
 
-- a data catalog and exploratory analysis of existing data
-- a standardized data model for storing different attributes of GHGs emissions data (values, dates, units, sectors, scopes, geographical entity informations...)
-- a set of connectos for integrating raw data
-- a database 
-- API
+CarbonGeoScales is based on a complete data workflow in order to deliver relevant and harmonized GHGs emissions datasets:
 
-![Roadmap](https://github.com/OpenGeoScales/Management/blob/main/images/CarbonGeoScales%20workflow.png?raw=true)
+- **Data catalog** for referencing identified GHGs emissions data and associated metadatas 
+- A **standardized data model** for storing different attributes of GHGs emissions data (values, dates, units, sectors, scopes, geographical entity informations...)
+- A **set of connectors** for integrating selecte raw data into the defined data model based on specific mapping rules
+- **Harmonized databases** for storing collected and transformed GHGs emissions data
+- **Data processing pipelines** for implementing the necessary transformations (recoding, enriching, cleaning, afggregating...)
+- A **Rest API** for querying the compiled database
+- A set of **reporting, aricles and dashborads** for providing insights on GHGs emissions data at various scales.
+
+![Data workflow](https://github.com/OpenGeoScales/Management/blob/main/images/CarbonGeoScales%20workflow.png?raw=true)
 
 
 ### Used datasets
