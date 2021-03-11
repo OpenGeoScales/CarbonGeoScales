@@ -4,6 +4,8 @@
 >
 > Author and project manager: [Saif Shabou](https://saif-shabou.netlify.app/)
 > 
+> Github repository: [CarbonData](https://github.com/OpenGeoScales/CarbonData)
+> 
 > Date: 11/03/2021
 > 
 
