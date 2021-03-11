@@ -47,6 +47,10 @@ CarbonGeoScales is based on a complete data workflow in order to deliver relevan
 
 ![Data workflow](https://github.com/OpenGeoScales/Management/blob/main/images/CarbonGeoScales%20workflow.png?raw=true)
 
+<p align="center">
+  <img src="https://github.com/OpenGeoScales/Management/blob/main/images/CarbonGeoScales%20workflow.png" />
+</p>
+
 
 ### Used datasets
 
