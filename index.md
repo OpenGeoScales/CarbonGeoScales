@@ -45,10 +45,9 @@ CarbonGeoScales is based on a complete data workflow in order to deliver relevan
 - A **Rest API** for querying the compiled database.
 - A set of **reporting, articles and dashboards** for providing insights on GHGs emissions at various scales.
 
-![Data workflow](https://github.com/OpenGeoScales/Management/blob/main/images/CarbonGeoScales%20workflow.png?raw=true)
 
 <p align="center">
-  <img src="https://github.com/OpenGeoScales/Management/blob/main/images/CarbonGeoScales%20workflow.png" />
+  <img src="https://github.com/OpenGeoScales/Management/blob/main/images/CarbonGeoScales%20workflow.png?raw=true" />
 </p>
 
 
@@ -86,7 +85,10 @@ By providing harmonized, relevant and ready-to-use multi-scale GHGs emissions op
 
 The figure below presents prelimenrary roadmap for delivering the Beta version of CarbonGeoScales as a part of [Data For Good](https://dataforgood.fr/) acceleration 3 months program starting from April 1st 2021. This first prototype adresses only the standardization of Bottmo-Up GHGs emission data at multiple scales in Fench terriotory.
 
-![Roadmap](https://github.com/OpenGeoScales/Management/blob/main/images/Roadmap.png?raw=true)
+
+<p align="center">
+  <img src="https://github.com/OpenGeoScales/Management/blob/main/images/Roadmap.png?raw=true" />
+</p>
 
 ### Future releases
 
