@@ -21,13 +21,13 @@ While several open data platforms and portals are engaged in publishing relevant
 Identification and mapping of the appropriate sources as well as various data processing treatments (cleaning, recoding, normalization, cross-referencing, aggregating...) are often necessary before being able to use the available data and combine it with other indicators.
 
 
-## CarbonGeoScales
+## Our solution: CarbonGeoScales
 
 ### Goals
 
-**The main goal of CarbonGeoScales consists of providing a centralized access point to updates, accurate, harmonized, and aggregated GHGs emissions data at multiple geographical scales.**
+**The main goal of CarbonGeoScales consists of providing a centralized access point to updated, accurate, harmonized, and aggregated GHGs emissions data at multiple geographical scales.**
 
-As an open source and collaborative project, different **data processing treatments** are accessible in order to provide users with transformation processes implemented on raw collected data. The resulting **compiled database** is accessible by download and through specific **API** for querying and integrating aggregated data into potential applications. Resulting harmonized GHGs emissions data are completed with consistent documentation, articles and dashboard for exploring its content.
+As an open source and collaborative project, different **data processing treatments** are accessible in order to provide users with transformation processes implemented on raw collected data. The resulting **compiled database** is accessible by download and through specific **API** for querying and integrating aggregated data into potential applications. Resulting harmonized GHGs emissions data are completed with consistent **documentation, articles and dashboards** for exploring its content.
 
 By facilitating access to GHGs emissions open data, CarbonGeoScales is participating to help policy makers to build more effective emissions reduction strategies at different territorial scales and to track their progress more accurately. Standardidzed data facilitates data use for carbon analytics specitalists (scientists, NGOs and carbon consultancy offices) in order to combine it with external datasets. 
 
@@ -35,12 +35,12 @@ By facilitating access to GHGs emissions open data, CarbonGeoScales is participa
 
 CarbonGeoScales is based on a complete data workflow in order to deliver relevant and harmonized GHGs emissions datasets:
 
-- **Data catalog** for referencing identified GHGs emissions data and associated metadatas 
+- **Data catalog** for referencing identified GHGs emissions data and associated metadatas. 
 - A **standardized data model** for storing different attributes of GHGs emissions data (values, dates, units, sectors, scopes, geographical entity informations...)
-- A **set of connectors** for integrating selecte raw data into the defined data model based on specific mapping rules
-- **Harmonized databases** for storing collected and transformed GHGs emissions data
-- **Data processing pipelines** for implementing the necessary transformations (recoding, enriching, cleaning, afggregating...)
-- A **Rest API** for querying the compiled database
+- A **set of connectors** for integrating selected raw data into the defined data model based on specific mapping rules.
+- **Harmonized databases** for storing collected and transformed GHGs emissions data.
+- **Data processing pipelines** for implementing the necessary transformations (recoding, enriching, cleaning, aggregating...).
+- A **Rest API** for querying the compiled database.
 - A set of **reporting, articles and dashboards** for providing insights on GHGs emissions at various scales.
 
 ![Data workflow](https://github.com/OpenGeoScales/Management/blob/main/images/CarbonGeoScales%20workflow.png?raw=true)
@@ -65,20 +65,20 @@ Carbon Disclosure Project (CDP) | The CDP is an international non-profit organis
 
 ## Users
 
-By providing harmonized, relevant and ready-to-use multi-scale GHGs emissions open data, CarbongeoScales fulfill the needs of various profiles of GHGs data users and carbon issues specialists:
+By providing harmonized, relevant and ready-to-use multi-scale GHGs emissions open data, CarbonGeoScales fulfill the needs of various profiles of GHGs data users and carbon issues specialists:
 
 - **Data journalists** specialized in climate change issues who need easy access to standardized open data with visualizations charts and comprehensive documentation to support their articles and reports. 
-- **Carbon consultancy specialists** who need GHGs emissions estimates for conducting carbon foortprint analysis to their clients (companies, facility level, municipalities...). CarbongeoScales provide them with API access to processed data at different scales. API use might be monetized according of request number or specific attributes and features to integrate (data update frequency,support, specific use cases...). 
-- **Policy makers** for better mitigating climate actions in various scales and tracking their progress in reducing emissions at various geographical scales by comparative analysis which need standardized data.
-- **Scientists** working in downscaling GHGs emissions estimates who need high-resolution bottom-up GHGs emissions estimates for parametrizing carbon monitoring simulation in combination with atmospheric concentration measurements ant image stallite retrieval.
-- **NGOs** specialists on climate issues and carbon analytics by providing them with standardized data and visualizations to integrate in their reprts, websites and applications.
+- **Carbon consultancy specialists** who need GHGs emissions estimates for conducting carbon foortprint analysis to their clients (companies, facility level, municipalities...). CarbonGeoScales provide them with API access to processed data at different scales. API use might be monetized according of request number or specific attributes and features to integrate (data update frequency ,support ,specific use cases...). 
+- **Policy makers** for better mitigating climate actions and tracking their progress in reducing emissions at various geographical and administrative scales by comparative analysis which need standardized data.
+- **Scientists** working in downscaling GHGs emissions estimates who need high-resolution bottom-up GHGs emissions estimates for parametrizing carbon monitoring simulation in combination with atmospheric concentration measurements and image stallites retrieval.
+- **NGOs** specialists in climate issues and carbon analytics by providing them with standardized data and visualizations to integrate in their reoprts, websites and applications.
 
 
 ## Roadmap
 
 ### Beta version 
 
-The figure below presents prelimenrary roadmap for delivering the Beta version of CarbonGeoScales as a part of Data For Good acceleration 3 months program starting from April 1st 2021. This first prototype adresses only the standardization of Bottmo-Up GHGs emission data at multiple scales in Fench terriotory.
+The figure below presents prelimenrary roadmap for delivering the Beta version of CarbonGeoScales as a part of [Data For Good](https://dataforgood.fr/) acceleration 3 months program starting from April 1st 2021. This first prototype adresses only the standardization of Bottmo-Up GHGs emission data at multiple scales in Fench terriotory.
 
 ![Roadmap](https://github.com/OpenGeoScales/Management/blob/main/images/Roadmap.png?raw=true)
 
@@ -89,20 +89,20 @@ Different improvements and new features have been identified for next releases o
 - **GHGs emissions data**: Including Top-down estimates based on satellite images and  ground based carbon monitoring stations in order to leverage uncertainties due to reporting bias.
 - **Data visualization**: Developing geo-visualization dashboards for exploring CarbonGeoScales database
 - **Geographical coverage**: Extending the spatial coverage of compiled data and implementing Beta version prototype to other territories and geographical scales.
-- **Communication**: Developing a dedicated web site for hosting and sharing documentation and articles based on CarbonGeoScales database and API
-- **Performance**: Improving database performance and data models by providing appropriate data storage infrastructure.
+- **Communication**: Developing a dedicated web site for hosting and sharing documentation and articles based on CarbonGeoScales database and API.
+- **Performance**: Improving database performance and data models by providing appropriate data storage and pipleines infrastructure.
 
 ## Project management
 
 - **Code source**: The actual code source of CarbonGeoScales project is hosted in [this Github repository](https://github.com/OpenGeoScales/CarbonData). [Github Project Board](https://github.com/OpenGeoScales/CarbonData/projects/2) is used for managing the collaboration in the developement of different fetaures and issues.
 
-- **Documentation**: The actual documentation is hosted in [Github wiki pages](https://github.com/OpenGeoScales/CarbonData/wiki). More appropriate documentation will be available soon in a specific documentation site.
+- **Documentation**: The actual documentation is hosted in [Github wiki pages](https://github.com/OpenGeoScales/CarbonData/wiki). More appropriate documentation will be available soon in a specific documentation website.
 
 - **Contribution modalities**: Contribution modalities are incremently specified in the [readme page](https://github.com/OpenGeoScales/CarbonData). A slack canal will be shared soon for facilitating interaction between contributors.
 
 ## Partnerships
 
-CarbonGeoScales has been selected by [Data For Good](https://dataforgood.fr/) in order to deliver first prototype based on Frencch GHGs emissions data. More partnerhips need to be set up with organisms specialized in open data, climate change issues and city-scale carbon monitoring in order to improve the consistency of delivered standardized data:
+CarbonGeoScales has been selected by [Data For Good](https://dataforgood.fr/) in order to deliver first prototype based on French GHGs emissions data. More partnerhips need to be set up with organisms specialized in open data, climate change issues and city-scale carbon monitoring in order to improve the consistency of delivered standardized data:
 
 - **Open Data**: [Our World in Data](https://ourworldindata.org/), [World resources Institute](https://www.wri.org/), [The Open Source geospatial Foundation (OSCGeo](https://www.osgeo.org/), [Open Data Institute](https://theodi.org/), [Open Knowldge Foundation](https://blog.okfn.org/), [Open data for development](https://www.od4d.net/), [Global Partnership for Sustainable Development Data](https://www.data4sdgs.org/about-gpsdd)...
 - **Carbon Data**: [Open Carbon Watch](https://opencarbonwatch.org/fr), [Integrated Carbon Observation System](https://www.icos-cp.eu/about/icos-in-nutshell/mission), [OS-climat](https://www.os-climate.org/), [Carbon Disclosure Project (CDP)](https://www.cdp.net/en)...
