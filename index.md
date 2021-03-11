@@ -31,7 +31,7 @@ As an open source and collaborative project, different **data processing treatme
 
 By facilitating access to GHGs emissions open data, CarbonGeoScales is participating to help policy makers to build more effective emissions reduction strategies at different territorial scales and to track their progress more accurately. Standardidzed data facilitates data use for carbon analytics specitalists (scientists, NGOs and carbon consultancy offices) in order to combine it with external datasets. 
 
-### Components
+### Technical components
 
 CarbonGeoScales is based on a complete data workflow in order to deliver relevant and harmonized GHGs emissions datasets:
 
@@ -41,12 +41,14 @@ CarbonGeoScales is based on a complete data workflow in order to deliver relevan
 - **Harmonized databases** for storing collected and transformed GHGs emissions data
 - **Data processing pipelines** for implementing the necessary transformations (recoding, enriching, cleaning, afggregating...)
 - A **Rest API** for querying the compiled database
-- A set of **reporting, aricles and dashborads** for providing insights on GHGs emissions data at various scales.
+- A set of **reporting, articles and dashboards** for providing insights on GHGs emissions at various scales.
 
 ![Data workflow](https://github.com/OpenGeoScales/Management/blob/main/images/CarbonGeoScales%20workflow.png?raw=true)
 
 
 ### Used datasets
+
+We identified various GHGs emissions datasets providing information on emissions estimates based on multiple protocols and standards. The table below lists main datasets by specifying data providers, data sources, geographical scale and spatial resolutions. A more detailed analysis of data contents is provided [in this report](https://opengeoscales.github.io/CarbonData/).
 
 Data provider | Description | Geoscale | Data sources | Access |
 ---|---------|---|---| ---| 
@@ -63,22 +65,14 @@ Carbon Disclosure Project (CDP) | The CDP is an international non-profit organis
 
 ## Users
 
-CarbonGeoScales aims at providing various GHGs emissions data users profiles with consistent and harmonized open data:
+By providing harmonized, relevant and ready-to-use multi-scale GHGs emissions open data, CarbongeoScales fulfill the needs of various profiles of GHGs data users and carbon issues specialists:
 
-- **Data journalists** specialized in climate change issues who need ...
-- **Policy makers** for better mitigating climate actions in various scales
-- **Scientists** working in downscaling GHGs emissions estimates 
-- **Carbon consultancy specialists** for better accounting carbon footprint
-- **NGOs**
+- **Data journalists** specialized in climate change issues who need easy access to standardized open data with visualizations charts and comprehensive documentation to support their articles and reports. 
+- **Carbon consultancy specialists** who need GHGs emissions estimates for conducting carbon foortprint analysis to their clients (companies, facility level, municipalities...). CarbongeoScales provide them with API access to processed data at different scales. API use might be monetized according of request number or specific attributes and features to integrate (data update frequency,support, specific use cases...). 
+- **Policy makers** for better mitigating climate actions in various scales and tracking their progress in reducing emissions at various geographical scales by comparative analysis which need standardized data.
+- **Scientists** working in downscaling GHGs emissions estimates who need high-resolution bottom-up GHGs emissions estimates for parametrizing carbon monitoring simulation in combination with atmospheric concentration measurements ant image stallite retrieval.
+- **NGOs** specialists on climate issues and carbon analytics by providing them with standardized data and visualizations to integrate in their reprts, websites and applications.
 
-
-## Contributers
-
-CarbonGeoScales is a collaborative project open to contribution from every person interested in GHGs emissions data modeling and processing depending on their expertise:
-
-- **Data experts:
-- **GHGs emissions use case experts**
-- **Scientists**
 
 ## Roadmap
 
