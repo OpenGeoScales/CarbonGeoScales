@@ -110,6 +110,10 @@ CarbonGeoScales has been selected by [Data For Good](https://dataforgood.fr/) in
 - **Carbon Data**: [Open Carbon Watch](https://opencarbonwatch.org/fr), [Integrated Carbon Observation System](https://www.icos-cp.eu/about/icos-in-nutshell/mission), [OS-climat](https://www.os-climate.org/), [Carbon Disclosure Project (CDP)](https://www.cdp.net/en)...
 - **City scale data**: [C40 cities](https://www.c40.org/about), [Global Govenant of Mayors for Climate & Energy](https://www.globalcovenantofmayors.org/), [Local Governments for Sustainability (ICLEI)](https://iclei.org/), [Carbon Neutral Cities Alliance](https://carbonneutralcities.org/)...
 
+<p align="center">
+  <img src="https://github.com/OpenGeoScales/Management/blob/main/images/logo.jpg" width="120"/>
+</p>
+
 
 
 
